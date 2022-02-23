@@ -1,0 +1,269 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;400;800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Public Sans', sans-serif;  
+    color: black;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.esconder-seta{
+    opacity: 0;
+}
+
+.mostrar-seta{
+    opacity: 1;
+}
+
+.logo .imagem{
+    width: 100px;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px;
+    max-width: 1170px;
+    margin: auto;
+    flex-wrap: wrap;    
+}
+
+@media(max-width: 624px){
+    .cabecalho{
+        justify-content: center;
+    }
+
+    .cabecalho .logo{
+        margin-bottom: 30px;
+    }
+
+    .cabecalho .menu .item a{
+        font-size: calc(0.6em +1vw);
+    }
+}
+
+ .logo{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+ .logo .titulo{
+    margin-left: 7px;
+    font-size: 17px;
+    transition: 0.3s ease-in-out;
+    font-weight: 800;
+}
+
+.logo .titulo:hover{
+    color:#1ed760;
+}
+
+.cabecalho .menu{
+    display: flex;    
+    
+}
+
+.cabecalho .item{
+    margin: 12px;
+    
+}
+
+.cabecalho .item a{
+    padding: 15px;
+    transition: 0.3s ease-in-out;
+    
+}
+
+.cabecalho .item a:hover{
+    background-color: #1ed760;
+    color: white;
+}
+
+main section{
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+@media(max-width: 900px){
+    main section{
+        height: 500px;
+    }
+}
+
+main section .imagem-painel{
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center center; 
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(70%);
+
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+main .projeto1{
+    background-image: url(../imagens/painel1.jpg);
+}
+
+main .projeto2{
+    background-image: url(../imagens/painel2.jpg);
+}
+
+main .projeto3{
+    background-image: url(../imagens/painel3.jpg);
+}
+
+main section .imagem-painel.mostrar{
+    opacity: 1;
+}
+
+main section .titulo{
+    color: white;
+    text-transform: uppercase;
+    font-size: calc(1em + 1vw);
+}
+
+main section .seta{
+    background-image: url(../imagens/seta.png);
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    text-indent: 100%;
+    overflow: hidden;
+}
+
+main section .btn-voltar{
+    left: 20px;
+    transform: rotateY(180deg);
+}
+
+main section .btn-avancar{
+    right: 20px;
+}
+
+.quem-somos{
+    background-color: #2941ab;
+   
+}
+
+.quem-somos .conteudo{
+    display: flex;
+    align-items: center;
+    padding: 0px 7%;
+}
+
+.quem-somos .informacoes{
+    width:40%;
+}
+
+.quem-somos .imagem{
+    width: 60%;
+}
+
+
+.quem-somos .titulo{
+    font-size: 50px;
+    color: #1ed760;
+    margin-bottom: 20px;
+}
+
+.quem-somos .texto{
+    font-size: 20px;
+    line-height: 1.5;
+    color: #ffff;
+    font-weight: 400;
+}
+
+@media(max-width: 1000px){
+    .quem-somos .conteudo{
+        text-align: center;
+        flex-direction: column;
+        padding: 80px 30px;
+    }
+    .quem-somos .conteudo .imagem{
+        display: none;
+    }
+
+    .quem-somos .conteudo.informacoes{
+        width: 100%;
+    }
+}
+
+.rodape{
+    padding: 80px 0 20px 0;
+    
+}
+
+.rodape .navegacao{
+    margin: 0 auto;
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+.rodape .redes-sociais{
+    display: flex;
+}
+
+.rodape .redes-sociais a{
+    display: center;
+    justify-content: center;
+    margin: 0 10px;
+    font-size: 30px;
+    border: 2px solid #111; 
+    border-radius: 50%;
+    padding: 15px;
+    transition: 0.3 ease-in-out;
+}
+
+.rodape .redes-sociais a:hover{
+    background-color: #1ed760;
+}
+
+.rodape .copyright{
+    margin-top: 70px;
+    text-align: center;
+}
+
+@media(max-width: 900px){
+    .rodape .navegacao .logo{
+        margin-bottom: 30px;
+    }
+
+    .rodape .navegacao .logo,
+    .rodape .navegacao .redes-sociais{
+        justify-content: center;
+        width: 100%;
+    }
+}
