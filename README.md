@@ -4,6 +4,8 @@ Uma landing page de divulgação de empresa, com carousel que mostra imagens de 
 
 
 ## 🔗 Acesso ao projeto
+<a href="https://jhonyfreitasdev.github.io/projeto-agencia-xpto/">Clique aqui para ir para a página</a>
+
 [<img src="src/imagens/projeto-agencia-xpto.gif">](https://jhonyfreitasdev.github.io/projeto-agencia-xpto/)
 
 
