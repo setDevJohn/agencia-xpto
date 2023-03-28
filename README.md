@@ -1,6 +1,6 @@
 
 #   Agência XPTO
-Uma landing page de divulgação de empresa, com carousel que mostra imagens de projetos.
+Uma landing page de divulgação de uma agência, com carousel de imagens contendo seus projetos.
 
 
 ## 🔗 Acesso ao projeto
@@ -15,7 +15,16 @@ Uma landing page de divulgação de empresa, com carousel que mostra imagens de 
   <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
 </div>
-
+<br/>
 
 ## 📤 Feedback
-Se você tiver algum feedback, entre em contato comigo em jhony00._@hotmail.com
+Se interessou pelo meu trabalho ou tem algum feedback? <br/> 
+Entre em contato comigo:
+<br/>
+ 
+<p align="left"> 
+ <a href="https://www.linkedin.com/in/jhony-freitas/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="40" height="35" /></a>
+ <a href ="https://api.whatsapp.com/send?phone=5511948127577&text" target="_blank" rel="noreferrer"><img src="./src/icons/whatsapp.png" width="40" height="35" /></a>
+ <a href ="mailto:jhony00._@hotmail.com" target="_blank" rel="noreferrer"><img src="src/icons/email-icone.png" width="40" height="35" /></a>
+ <a href="https://discord.com/users/jhonyFreitas#1359" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="40" height="35" /></a> 
+</p>
